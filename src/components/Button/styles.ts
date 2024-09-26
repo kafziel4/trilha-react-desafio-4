@@ -13,4 +13,9 @@ export const ButtonContainer = styled.button`
     opacity: 0.6;
     cursor: pointer;
   }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
 `;
